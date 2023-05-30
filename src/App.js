@@ -1,11 +1,13 @@
 import './App.css';
-import { useState } from 'react';
+import Game from './Game'
 
 
 function Square({value, onSquareClick}) {
   return (
     
-    <div>Carisma and Dan's Tic Tac Toe Board </div>
+    <div>Carisma and Dan's Tic Tac Toe Board 
+      <Game></Game>
+    </div>
       // <button className='square' onClick = {onSquareClick}>{value}</button>   
     
   );
